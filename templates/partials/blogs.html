@@ -7,11 +7,12 @@
         <div class="d-flex align-items-center mb-3">
           <img
             src="{{ row.image_path }}"
-            alt="Admin Photo"
+            alt="{{ row.title }} thumbnail"
             class="rounded-circle me-3"
             width="48"
             height="48"
             style="object-fit: cover"
+            loading="lazy"
           />
           <div>
             <h4 class="mb-0">{{ row.title }}</h4>

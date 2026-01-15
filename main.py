@@ -38,6 +38,15 @@ app_header = {"Authorization": "4L50v92nOgcDCYUM"}
 # Set session lifetime to 24 hours
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=1440)
 
+# Context processor to inject base_url into all templates
+@app.context_processor
+def inject_base_url():
+    return {
+        'base_url': request.host_url.rstrip('/'),
+        'site_name': 'Le Acupuncture',
+        'default_description': 'Professional acupuncture services'
+    }
+
 # Checks if the user is logged in, particularly when trying to access a page which requires authentication
 # Redirects to the login page if not authenticated
 @app.before_request

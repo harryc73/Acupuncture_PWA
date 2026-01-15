@@ -438,4 +438,45 @@ textarea.form-control:focus {
   outline: none;
 }
 
+/* PRICING CARDS
+  -------------------------------------------------- */
+.pricing-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(48, 60, 44, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.pricing-card:hover {
+  border-color: #4caf50;
+  box-shadow: 0 8px 24px rgba(76, 175, 80, 0.15);
+  transform: translateY(-4px);
+}
+
+.pricing-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.pricing-price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #4caf50;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
 

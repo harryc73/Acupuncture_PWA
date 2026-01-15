@@ -5,10 +5,11 @@
       <div class="card w-100 h-100 d-flex flex-row align-items-center p-3">
         <img
           src="{{ row.formFile }}"
-          alt="Profile"
+          alt="Picture of customer {{ row.customer_name }}"
           class="rounded-circle me-3"
           width="48"
           height="48"
+          loading="lazy"
         />
         <div>
           <strong>{{ row.customer_name }}</strong>

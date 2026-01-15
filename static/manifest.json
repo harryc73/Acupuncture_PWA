@@ -1,10 +1,10 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Le Acupuncture",
+    "short_name": "LeAcupuncture",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#000",
-    "theme_color": "#000",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
     "orientation": "landscape-primary",
     "icons": [
       {
@@ -62,13 +62,13 @@
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "wide",
-      "label": ""
+      "label": "Le Acupuncture desktop screenshot"
     },
         {
       "src": "static/icons/mobile_screenshot.png",
       "sizes": "1920x1080",
       "type": "image/png",
-      "label": ""
+      "label": "Le Acupuncture mobile screenshot"
     }
   ]
   }
